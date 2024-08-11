@@ -1,0 +1,10 @@
+<!ELEMENT stocks (stocksymbole+)>
+<!ELEMENT stocksymbole (companyname, sector, currentprice, pbratio, peratio, roe, marketcapitalisation, dateadded)>
+<!ELEMENT companyname (#PCDATA)>
+<!ELEMENT sector (#PCDATA)>
+<!ELEMENT currentprice (#PCDATA)>
+<!ELEMENT pbratio (#PCDATA)>
+<!ELEMENT peratio (#PCDATA)>
+<!ELEMENT roe (#PCDATA)>
+<!ELEMENT marketcapitalisation (#PCDATA)>
+<!ELEMENT dateadded (#PCDATA)>

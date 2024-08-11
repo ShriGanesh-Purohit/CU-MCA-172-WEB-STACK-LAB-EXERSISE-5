@@ -1,0 +1,19 @@
+<stocks:schema xmlns:stocks="http://www.w3.org/2001/XMLSchema">
+    <stocks:element name="stock">
+        <stocks:complexType>
+            <stocks:sequence>
+                
+                <stocks:element name="stocksymbol" type="stocks:string"/>
+                <stocks:element name="companyname" type="stocks:string"/>
+                <stocks:element name="sector" type="stocks:string"/>
+                <stocks:element name="currentprice" type="stocks:float"/>
+                <stocks:element name="pbratio" type="stocks:float"/>
+                <stocks:element name="peratio" type="stocks:float"/>
+                <stocks:element name="roe" type="stocks:float"/>
+                <stocks:element name="marketcapitalisation" type="stocks:long"/>
+                <stocks:element name="dateadded" type="stocks:dateTime"/>
+                
+            </stocks:sequence>
+        </stocks:complexType>
+    </stocks:element>
+</stocks:schema>
